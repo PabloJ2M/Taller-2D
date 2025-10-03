@@ -13,12 +13,12 @@ public class EnemyMovement : MonoBehaviour
     }
     private void Update()
     {
-        Vector2 input = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        agent.SetDestination(input);
+        //Vector2 input = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //agent.SetDestination(input);
 
-        if (agent.remainingDistance < 1)
-        {
-            print("llego al objetivo");
-        }
+        //if (agent.remainingDistance < 1)
+        //{
+        //    print("llego al objetivo");
+        //}
     }
 }
